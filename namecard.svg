@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07071a"/><stop offset=".52" stop-color="#0d1a3e"/><stop offset="1" stop-color="#0a2a4a"/></linearGradient>
+    <linearGradient id="banner" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071326" stop-opacity=".70"/><stop offset=".52" stop-color="#080d25" stop-opacity=".55"/><stop offset="1" stop-color="#080d25" stop-opacity=".84"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="card"><rect x="7" y="7" width="786" height="386" rx="18"/></clipPath>
+    <clipPath id="avatar"><circle cx="110" cy="240" r="61"/></clipPath>
+  </defs>
+  <rect x="7" y="7" width="786" height="386" rx="18" fill="url(#bg)" stroke="#00dffc" stroke-opacity=".65" stroke-width="2"/>
+  <g clip-path="url(#card)">
+    <image href="khoi.gif" x="10" y="10" width="780" height="380" preserveAspectRatio="none"/>
+    <rect x="10" y="10" width="780" height="380" fill="url(#banner)"/>
+    <path d="M10 190H790" stroke="#00eaff" stroke-opacity=".7"/>
+    <circle cx="110" cy="240" r="66" fill="#071326" stroke="#00eaff" stroke-width="3" filter="url(#glow)"/>
+    <image href="Khoipixel.jpg" x="50" y="180" width="120" height="120" clip-path="url(#avatar)" preserveAspectRatio="xMidYMid slice"/>
+    <circle cx="161" cy="290" r="9" fill="#00ffb0" stroke="#071326" stroke-width="4"/>
+    <text x="190" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" fill="#fff" filter="url(#glow)">Nhut Khoi</text>
+    <text x="190" y="258" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="2" fill="#00eaff">CYBER SECURITY · DEVELOPER</text>
+    <line x1="190" y1="273" x2="760" y2="273" stroke="#1a3a6a" stroke-width="1.5"/>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#c0d0f0">
+      <circle cx="201" cy="299" r="11" fill="#101d3c" stroke="#00eaff"/>
+      <rect x="195" y="293" width="12" height="12" rx="3.5" fill="none" stroke="#ff73fa" stroke-width="1.5"/><circle cx="201" cy="299" r="3" fill="none" stroke="#ff73fa" stroke-width="1.4"/><circle cx="205" cy="295" r="1" fill="#ff73fa"/>
+      <text x="220" y="304" fill="#c0d0f0">Instagram: nhuttkhoi.haa</text>
+      <circle cx="201" cy="337" r="11" fill="#101d3c" stroke="#00eaff"/>
+      <path d="M201 329c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.7.6-3.3-1.1-3.3-1.1-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 1 1.6 2.5 1.1 3.1.8.1-.7.4-1.1.7-1.3-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.6 0 0 .8-.3 2.7 1 .8-.2 1.5-.3 2.3-.3s1.6.1 2.3.3c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.3.7.9.7 1.8v2.1c0 .2.1.5.5.4 3.2-1.1 5.5-4.1 5.5-7.6 0-4.4-3.6-8-8-8z" fill="#fff"/>
+      <text x="220" y="342" fill="#c0d0f0">GitHub: /nhutkhoi24</text>
+    </g>
+    <line x1="488" y1="289" x2="488" y2="365" stroke="#00eaff" stroke-opacity=".55"/>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="515" y="302" font-size="12" font-weight="700" letter-spacing="2" fill="#00eaff" filter="url(#glow)">ABOUT ME</text>
+      <text x="515" y="328" font-size="13" fill="#c0d0f0">Cyber Security · Dev</text>
+      <text x="515" y="350" font-size="13" fill="#c0d0f0">Security Audit</text>
+      <rect x="515" y="362" width="48" height="17" rx="8" fill="#09142b" stroke="#00eaff"/>
+      <text x="539" y="374" text-anchor="middle" font-size="8" font-weight="700" fill="#00eaff">SECURITY</text>
+      <rect x="570" y="362" width="39" height="17" rx="8" fill="#09142b" stroke="#00ffb0"/>
+      <text x="589" y="374" text-anchor="middle" font-size="8" font-weight="700" fill="#00ffb0">DEV</text>
+      <rect x="616" y="362" width="76" height="17" rx="8" fill="#09142b" stroke="#ff73fa"/>
+      <text x="654" y="374" text-anchor="middle" font-size="8" font-weight="700" fill="#ff73fa">SECURITY AUDIT</text>
+    </g>
+    <path d="M15 15h25v7H22v18h-7zM785 15h-25v7h18v18h7zM15 385h25v-7H22v-18h-7zM785 385h-25v-7h18v-18h7z" fill="#00eaff" opacity=".75" filter="url(#glow)"/>
+  </g>
+</svg>
+
+
+
