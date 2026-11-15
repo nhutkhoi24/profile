@@ -28,7 +28,7 @@
     <line x1="488" y1="289" x2="488" y2="365" stroke="#00eaff" stroke-opacity=".55"/>
     <g font-family="Segoe UI, Arial, sans-serif">
       <text x="515" y="302" font-size="12" font-weight="700" letter-spacing="2" fill="#00eaff" filter="url(#glow)">ABOUT ME</text>
-      <text x="515" y="328" font-size="13" fill="#c0d0f0">Cyber Security Â· Dev</text>
+      <text x="515" y="328" font-size="13" fill="#c0d0f0">Cyber Security · Dev</text>
       <text x="515" y="350" font-size="13" fill="#c0d0f0">Security Audit</text>
       <rect x="515" y="362" width="48" height="17" rx="8" fill="#09142b" stroke="#00eaff"/>
       <text x="539" y="374" text-anchor="middle" font-size="8" font-weight="700" fill="#00eaff">SECURITY</text>
